@@ -49,6 +49,8 @@ body {
     border-radius: 50%;
     animation: spin 1s linear infinite, pulseSpinner 1.5s ease infinite;
     margin: 20px auto;
+    display: block; /* Memastikan spinner ditampilkan sebagai block */
+    visibility: visible; /* Memastikan spinner selalu terlihat saat aktif */
 }
 @keyframes spin {
     0% { transform: rotate(0deg); }
